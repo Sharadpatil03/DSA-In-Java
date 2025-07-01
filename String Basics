@@ -1,0 +1,20 @@
+import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+
+
+public class Main {
+    public static void main(String[] args) {
+     
+     //string literal (used string pool to store the string)
+     String s1="hello";
+     String s2 = new String("Hello");  
+     String s3="hello";
+     
+     System.out.println(s1==s2);  // gives false coz different memeory reference
+     System.out.println(s1==s3);  // gives true coz same memeory reference
+     
+     // String pool =>faster performace and Reference is reused
+     
+  }
+}
